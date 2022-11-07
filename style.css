@@ -1,0 +1,393 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+
+    background: rgb(87,132,187);
+background: linear-gradient(90deg, rgb(144, 155, 167) 50%, rgb(115, 166, 214) 50%);
+    font-family: roboto, sans-serif;
+    overflow-x:hidden;
+
+    
+}
+
+header{
+    background-color: white;
+    height: 5rem;
+    margin-top: -1.25rem;
+    margin-left: -0.625rem;
+    box-shadow: 1px 1px 100px 10px #005296;
+    width: 120rem;
+}
+
+h1, h2, h3, p{
+    color: #ffffff;
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 93.75rem;
+    margin-top: 35px;
+    color: #000000;
+    
+}
+
+#menu li{
+    margin-left: 1.875rem;
+    list-style: none;
+    
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+}
+
+#menu li a:hover{
+    color: #2e539e;
+}
+
+#logo{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 70px;
+    color: #000000;
+}
+
+#sobre img{
+    max-width: 100%;
+    opacity: 100%;
+    box-shadow: 1px 1px 100px 10px #f1f1f1;
+
+}
+
+#textotxt{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 180px;
+}
+
+#textotxt h2{
+    color: #F2F2F2;
+    font-weight: 300;
+}
+
+#textotxt h2 span{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#sobre a{
+    position: absolute;
+    color: #f2f2f2;
+    text-decoration: none;
+    background-color: #355187;
+    box-shadow: 1px 1px 100px 1px #051535;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius: 5px;
+}
+
+#sobre a:hover{
+    border: 1px solid #f2f2f2;
+    padding: 20px;
+}
+
+#buscar{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -1000px;
+    width: 300px;
+    height: 30px;
+    font-family: roboto, sans-serif;
+}
+
+#consultorio{
+    margin-top: 280px;
+    box-shadow: 1px 1px 100px 1px #3381c0;
+    height: 700px;
+}
+
+#consultorio img{
+    margin-left: 280px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+#txtconsultorio{
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+#consultorio p{
+    margin-top: -5px;
+    margin-left: 250px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    width: 1380px;
+}
+
+#eu img{
+    width: 300px;
+    border-radius: 300px;
+    margin-top: 130px;
+    margin-left: 320px;
+    max-width: 100%;
+
+}
+
+#eu img:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#eu h3{
+    font-size: 35px;
+    margin-left: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#eu p{
+    margin-left: 440px;
+    margin-top: -30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#eu{
+    margin-top: 280px;
+    height: 920px;
+    box-shadow: 1px 1px 100px 10px #3381c0;
+}
+
+
+
+#agendamento{
+    margin-top: 280px;
+}
+
+#sociais{
+    margin-left: 705px;
+    margin-top: 340px;
+}
+
+#sociais #a1{
+    background-color:  #2e539e;
+    box-shadow: 1px 1px 100px 1px #2e539e;
+    text-decoration: none;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+
+#sociais #a1:hover{
+    border: 1px solid white;
+}
+
+#sociais a{
+    margin-left: 40px;
+}
+
+#sociais #a2{
+border: 1px solid  #2e539e;
+text-decoration: none;
+padding: 30px 50px;
+color: #2e539e;
+border-radius: 5px;
+}
+
+#sociais #a2:hover{
+    border: 1px solid white;
+}
+
+#info p{
+    margin-top: -240px;
+    margin-left: 1180px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    width: 730px;
+    height: 90px;
+}
+
+
+
+#agendamento input{
+    width: 250px;
+    height: 50px;
+}
+
+#agendamento input{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+#agendamento{
+    margin-left: 150px;
+    font-size: 35px;
+    margin-top: 300px;
+}
+
+#agendamento a{
+    text-decoration: none;
+    color: white;
+    background-color: #2e539e;
+    padding: 10px;
+    margin-top: 30px;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 2100px;
+    margin-left: -10px;
+    margin-top: 320px;
+}
+
+
+
+#copy{
+    margin-left: 1300px;
+    margin-top: 50px;
+    height: 20px;
+    color: rgb(26, 26, 26);
+}
+
+#final{
+    margin-top: 280px;
+    box-shadow: 1px 1px 100px 10px #3381c0;
+    height: 750px;
+}
+
+#final h2{
+    font-size: 32px;
+    margin-left: 60px;
+}
+
+#final iframe{
+    width: 1200px;
+    margin-left: 330px;
+    display: flex;
+}
+
+#copy{
+    display: flex;
+    margin-top: 30px ;
+}
+
+#sobres{
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+
+#text-f{
+    font-size: 32px;
+    font-family: poppins;
+    margin-left: 230px;
+}
+
+#agendar #botao{
+    margin-left: 495px;
+    width: 90px;
+    background-color: #2e539e;
+    color: #f1f1f1;
+}
+
+.slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    width: 700px;
+    height: 700px;
+    margin-top: 60px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(14, 156, 221);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(221, 218, 218, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    background-color: rgb(31, 30, 30);
+  }
+
+  .text:hover{
+    border: 1px solid white;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    top: 100px;
+  }
+
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  
+  
+    

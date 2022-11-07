@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/main.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2 id="logo">Dr. Franz</h2>
+        <ul id="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="services.html">Serviços</a></li>
+            <li><a href="">Feedback</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="sobre">
+        <div>
+            <img src="img/sasun-bughdaryan-RlIppR1I3E8-unsplash.jpg" alt="Banner de introdução">
+            <input id="buscar" type="search" placeholder=" Digite neste campo o nome da sua cidade   🔎">
+            <div id="textotxt">
+            <h2>
+                Consultório odontológico especializado
+                <br>
+                <span>DR. BRUNO FRANZ</span>
+                <br>
+                Atuando a mais de doze anos na área.
+            </h2>
+            <a href="#agendamento">MARCAR HORÁRIO</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/mailchimp-Vc2dD4l57og-unsplash.jpg" style="width:100%" alt="Imagem do notebook utilizado no consultório.">
+            <div class="text">Possuímos tecnlogia em todo nosso consultório e podemos marcar uma consulta para conhecer o paciente de maneira online.</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/atikah-akhtar-XJptUS8nbhs-unsplash.jpg" style="width:100%" alt="Imagem do novo consultório.">
+            <div class="text">Laboratório redecorado em 2022.</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/atikah-akhtar-hKaYlAF1nDw-unsplash.jpg" style="width:100%" alt="Mnutenção de aparelho.">
+            <div class="text">Julia visitou nossa clinica para fazer a manutenção em seu aparelho.</div>
+        </div>
+
+
+
+        <!-- Next and previous buttons -->
+        <div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+
+    </div>
+
+
+
+    <section id="eu">
+        <img src="img/akram-huseyn-NPP0qXVIGDQ-unsplash.jpg" alt="Foto do doutor">
+        <h3>Bruno Franz</h3>
+        <p>(Dentista)</p>
+
+
+        <div id="info">
+            <p> Formado em Odontologia na Universidade <br> do Estado de Santa Catarina (UFSC).</p>
+            <p> Mestrado em Dentística Restauradora pelo Programa de <br> Pós-Graduação em Odontologia da Universidade Federal <br>de Santa Catarina (UFSC).</p>
+            <p> Cirurgiã Dentista proprietária do Consultório Odontológico <br> Dr. Bruno Franz em Florianópolis/SC.</p>
+        </div>
+
+        <div id="sociais">
+        <a id="a1" href="https://www.linkedin.com/in/brunofranz/">LINKEDIN</a>
+        <a id="a2" href="https://www.instagram.com/brunofranz._/">INSTAGRAM</a>
+        </div>
+    </section>
+
+    <section id="agendamento">
+    <div id="agendar">
+        <div id="text-f">
+            <label for="nome">  Nome Completo:</label>
+            <br>
+            <input type="text" name="nome"  id="textnome" placeholder="Nome" onblur="ValidarNome()" required>
+        </div>
+        <div id="text-f">
+            <label for="email">  Email:</label>
+            <br>
+            <input type="text" name="email"  id="textemail" placeholder="Email" onblur="ValidarEmail()" required>
+        </div>
+        <br>
+        <div id="text-f">
+            <label for="senha">  Senha</label>
+            <br>
+            <input type="password" name="senha"  id="textsenha" onblur="ValidarSenha()" placeholder="Senha" required>
+        </div>
+        <br>
+        <a id="botao" href="/index.html">Enviar</a>
+        
+    </div>
+    </section>
+    <script src="scriptcarrousel.js"></script>
+    </main>
+
+    <section id="final">
+        <h2>Nosso Endereço</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14160.013666015093!2d-48.413659883898916!3d-27.469153000328852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952741e09117585d%3A0x6e1666a0369c014a!2sCost%C3%A3o%20Golf%20Ville!5e0!3m2!1spt-BR!2sbr!4v1661028551184!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div id="sobres">
+        <p>Av. Mauro Ramos n° 101</p>
+        <p id="p2">+48 99999-9999</p>
+        <p id="p3">meaprovaprof@gmail.com</p>
+    </div>
+    </section>
+
+    <footer>
+        <p id="copy">Copyright © 2022 FranzDeveloper</p>
+    </footer>
+</body>
+</html>
